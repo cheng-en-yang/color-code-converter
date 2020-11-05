@@ -1,4 +1,4 @@
-const reference = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'D', 'E', 'F'];
+const reference;
 
 const rgbToHex = function (input) {
 	let firstValue;
@@ -34,5 +34,4 @@ const rgbHexConverter = function (input) {
 	}
 }
 
-rgbHexConverter('rgb(255,255,255');
 
