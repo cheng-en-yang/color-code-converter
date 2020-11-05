@@ -33,5 +33,3 @@ const rgbHexConverter = function (input) {
 		alert('Please enter rgb or hex!');
 	}
 }
-
-
