@@ -7,10 +7,10 @@
         <h1>Color code converter</h1>
         <p>It's a tool for converting color codes between different color code systems</p>
         <form>
-            <input type="text">
-            <input type="submit" value="Convert now!"></input>
+            <input type="text" id="inputtext">
+            <input type="button" value="Convert now!" onclick="rgbHexConverter(document.getElementById('inputtext').value)">
         </form>
-        <span id="output"></span>
-        <script src="function.js"></script>
+        <p id="output"></p>
+        <script type="text/javascript" src="function.js"></script>
     </body>
 </html>
